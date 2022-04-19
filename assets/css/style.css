@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cinzel Decorative", Arial, Helvetica, sans-serif;
+}
+main{
+
+  width: 100%;
+  height:100%;
+  margin: auto;
+  
+}
+
+body {
+  
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-image: url("../img/foto2.jpg");/*imagem de fundo */
+  background-repeat: no-repeat;/* não repetir imagem de fundo*/
+  background-size: cover; /*preencher todo o espaço com a imagem*/
+  background-position: center;/* Centraliza a imagem*/
+}
+
+header {
+ 
+  background-image: url("../img/foto1.jpg"); /*imagem de fundo */
+  background-repeat: no-repeat; /* não repetir imagem de fundo*/
+  background-size: cover; /*preencher todo o espaço com a imagem*/
+  background-position: center; /* Centraliza a imagem*/
+  height: 100px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  padding: 5rem;
+  color: rgb(192, 188, 86);
+  font-size: 3rem;
+  text-shadow: 3px 3px black;
+}
+
+section#infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+section#infos div#txt {
+  padding: 5rem;
+  color: rgb(192, 188, 86);
+  text-align: center;
+}
+
+section#infos div#txt h2 {
+  padding: 0.5rem;
+  font-size: 4rem;
+  font-weight: 800;
+  text-shadow: 3px 3px black;
+}
+
+section#infos div#txt h3 {
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-shadow: 3px 3px black;
+}
+
+section#infos div#txt button {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  background-color: #a7a9a2;
+  border: 2px solid #0b0b0a;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+
+section#infos div#txt button:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 1px #ffffff50;
+}
+
+section#infos div#img {
+  display: flex;
+  justify-content: center;
+}
+
+section#infos div#img img {
+  width: 100%;
+  border-radius: 3rem;
+}
+footer {
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 20;
+  color: rgb(255, 255, 255);
+}
